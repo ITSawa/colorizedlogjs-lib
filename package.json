@@ -1,0 +1,44 @@
+{
+  "name": "colorizedlogjs",
+  "version": "1.0.4",
+  "description": "A simple library to upgrade your console logs with colored output",
+  "main": "src/ColorizedLog.js",
+  "exports": {
+    ".": "./src/ColorizedLog.js",
+    "./es": "./src/ColorizedLog.esm.js"
+  },
+  "scripts": {
+    "start": "webpack serve --mode development",
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "color",
+    "logging",
+    "console",
+    "nodejs"
+  ],
+  "author": "Savva ITSawa https://github.com/ITSawa",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ITSawa/colorizedlogjs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ITSawa/colorizedlogjs/issues"
+  },
+  "homepage": "https://github.com/ITSawa/colorizedlogjs",
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "babel-loader": "^9.2.1",
+    "webpack": "^5.96.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.11.1"
+  },
+  "files": [
+    "src",
+    "dist",
+    "ColorizedLog.js"
+  ]
+}
